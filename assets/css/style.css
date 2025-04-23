@@ -32,7 +32,21 @@ h2 {
  #portfolio {
     background-color: #dbdcde; /* light-grey */
 
+
  }
+#portfolio .card-title {
+
+   color: #1f7798;
+   font-size: 1.2rem;
+}
+
+#portfolio .card-text {
+   min-height: 120px;
+}
+#portfolio .btn btn-outline-secondary:hover {
+
+   background-color: #1f7798;
+}
  /* Contact section */
  #contact {
     background-color: white;
@@ -49,5 +63,12 @@ h2 {
    min-height: 500px;
    padding: 5% 7%;
 
+}
+/* Use Bootstrap breakpoint for Xl screens */
+@media screen and (min-width: 1200px) {
+   /* Fixes all portfolio cards being too tall on xl screens */
+   #portfolio .card-text {
+      min-height: auto;
+   }
 }
 
