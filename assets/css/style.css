@@ -23,6 +23,12 @@ h2 {
 
 }
 
+.sharp-corners,
+.sharp-corners * {
+
+   border-radius: 0;
+}
+
 /* About section */
 
  #about {
