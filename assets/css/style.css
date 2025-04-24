@@ -77,4 +77,12 @@ h2 {
       min-height: auto;
    }
 }
+/* custom button mid blue */
+.newsletter-button{
+   background-color: #1f7798;
+    border: #1f7798;
 
+.newsletter-button:hover {
+   background-color: #1d6d8a;
+    border: #1d6d8a;
+}
